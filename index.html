@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>navbar</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close"
+    />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <ul id="sidebar">
+        <li onclick="closesidebar()">
+          <a href="#"><span class="material-icons">
+close
+</span></a>
+        </li>
+        <li><a href="#" data-scroll="section1">Home</a></li>
+        <li><a href="#" data-scroll="section2">About Me</a></li>
+        <li><a href="#" data-scroll="section3">Skills</a></li>
+        <li><a href="#" data-scroll="section4">Projects</a></li>
+        <li><a href="#" data-scroll="section5">contacts</a></li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#" ><h2 class="VK">VK</h2></a>
+        </li>
+
+        <li class="hideonmobile"><a href="#" data-scroll="section1">Home</a></li>
+        <li class="hideonmobile"><a href="#" data-scroll="section2">About Me</a></li>
+        <li class="hideonmobile"><a href="#" data-scroll="section3">Skills</a></li>
+        <li class="hideonmobile"><a href="#" data-scroll="section4">Projects</a></li>
+        <li class="hideonmobile"><a href="#" data-scroll="section5">Contacts</a></li>
+        <li class="menu" onclick="showsidebar()">
+          <a href="#"><i class="material-icons">&#xe5d2;</i></a>
+        </li>
+      </ul>
+    </nav>
+    <section id="section1">
+    <header>
+      
+      <h1>Vinothkannan</h1>
+      <p>Web Developer | Frontend | JavaScript</p>
+    </header>
+    </section>
+    <section id="section2">
+      <div class="container1">
+
+        <h2>About Me And Eduation</h2>
+        <div class="grid-container">
+          <div>
+          <img src="./assets/fb.jpg" alt="">
+          </div>
+         
+          <div class="details">
+            <h4></h4>
+           <ul>
+             <li><p><strong>Name: </strong> <span>Vinothkannan</span></p></li>
+             <li><p><strong>Adress: </strong> <span>Mayiladuthurai Tamilnadu India</span></p></li>
+             <li><p><strong>Qualification: </strong> <span>Bachelor Of Science in Computer Science</span></p></li>
+             <li><p><strong>Profile: </strong><span>Entry level Javascript developer</span></p></li>
+             <li><p><strong>GitHub: </strong><span><a href="https://github.com/vinothkannan734">github.com/vinothkannan734</a></span> </p></li>
+              </ul>
+          </div>
+       </div>
+       </div>
+       
+    </section> 
+ <section id="section3">
+      <div class="container3">
+        <h1>Skills</h1>
+        <div>
+        <ul>
+            <li>
+             <h3>Technical Skills</h3>
+             <h5>1.Programing Languages</h5>
+             <p>JavaScript (ES6+ syntax)</p>
+             <p>HTML5 </p>
+             <p>CSS</p>
+            </li>
+            <li>
+             <h5>2.Frontend Development</h5>
+             <p>DOM manipulation</p>
+             <p>Event handling</p>
+             <p>Responsive Web design</p>
+            </li>
+            <li>
+             <h5>3.Css Frameworks and Preprossors</h5>
+             <p>Tailwind css</p>
+             <p>SASS</p>
+            </li>
+             <li>
+             <h5>4.Version Control...</h5>
+             <p>Git</p>
+             <p>GitHub</p>
+            </li>
+             <li>
+             <h3>Soft Skills</h3>
+             <h5>1.Problem solving</h5>
+             <p>Strong analytical and problem-solving skills</p>
+             <p>Ability to debug code and identify issues</p>
+            </li>
+            <li>
+             <h5>2.Communication</h5>
+             <p>Effective communication skills</p>
+             <p>Ability to explain technical concepts to non-technical stakeholders</p>
+            </li>
+            <li>
+             <h5>3.Teamwork</h5>
+             <p>Collaborative mindset</p>
+             <p>Ability to work effectively in a team environment</p>
+            </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+    <section id="section4">
+      <div class="container2">
+        <h2>Projects</h2>
+        
+        <div class="project">
+          <h3>Task Manager App</h3>
+          <p>A simple to-do app with JavaScript and local storage.</p>
+          <a href="https://todolist-60043786352.development.catalystserverless.in/app/index.html">clik here to Todo list app</a>
+        </div>
+        <div class="project">
+          <h3>Wearher app</h3>
+          <p>A Simple Weather app with javascript and using fetch API. </p>
+          <a href="https://weather-60043786352.development.catalystserverless.in/app/index.html">clik here to weather app</a>
+        </div>
+        <div class="project">
+            <div class="project">
+          <h3>Registration form</h3>
+          <p>A simple login and signup validation app with JavaScript and local storage.</p>
+          <a href="https://validation-60043786352.development.catalystserverless.in/app/index.html">clik here to signup page</a>
+        </div>
+        <div class="project">
+            <div class="project">
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio to showcase skills and projects.</p>
+        </div>
+    </section>
+     <section id="section5">
+       <div class="container4">
+        <h2>Contacts</h2>
+         <p><strong>Email:</strong> vinothkannan734@gmail.con</p>
+          <p><strong>Phone: </strong> <span>+91 8248740483</span></p>
+         <p><strong>GitHub:</strong> github.com/vinothkannan734</p>
+        </div>
+      </section>
+
+    <footer><h2>Thankyou For Visiting My Portfolio</h2></footer>
+   
+  </body>
+</html>
